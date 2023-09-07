@@ -15,7 +15,6 @@ triggers {
             stage('Unit & Integration Tests') {
                         steps {
                             script {
-                                try {
                                     sh './gradlew clean bootBuildImage --no-daemon' //run a gradle task
                             }
                         }

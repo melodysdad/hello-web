@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d5e22e6-f876-4dc9-acff-c6d07bde3939" name="Changes" comment="Jenkinsfile initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7d5e22e6-f876-4dc9-acff-c6d07bde3939" name="Changes" comment="adding gradle build">
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694108520012</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding gradle build">
+      <option name="closed" value="true" />
+      <created>1694110574975</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694110574975</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -216,7 +223,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Jenkinsfile initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jenkinsfile initial commit" />
+    <MESSAGE value="adding gradle build" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding gradle build" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
