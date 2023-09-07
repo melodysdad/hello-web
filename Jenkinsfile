@@ -5,11 +5,7 @@ triggers {
     }
 
     stages {
-     stage('Checkout') {
-        steps { //Checking out the repo
-            checkout changelog: true, poll: true, scm: [$class: 'GitSCM', branches: [[name: '*/main']],  doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'git', url: 'ssh://git@git.giturl.com/test/test.git']]]
-        }
-     }
+
      stage('Build') {
         steps {
             script {
